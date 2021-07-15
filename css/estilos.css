@@ -6,25 +6,27 @@
 
 body { 
     min-height: 100vh;
-    background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%);
-    font-family: 'Raleway', sans-serif;
+    background-image: linear-gradient(-45deg, #e3ddd9 50%, #36221c 50%); /*linea marron y blanca*/
+    font-family: 'Raleway', sans-serif; /*fuente sacada de google*/
 }
-
-.titulo {
-    font-size: 40px;
-    font-family: 'Dancing Script', cursive;
-    margin-bottom: 40px;
+/*Formato del titolo principal*/
+.titulo { 
+    font-size: 60px; /*Tamaño del titulo*/
+    font-family: 'Dancing Script', cursive; /*fuente*/
+    margin-bottom: 40px; /*Margen inferior*/
     color: #fff;
 }
+/*formato del nombre de los productos*/
 
 .subtitulo {
     margin: 0;
     color: #000;
-    display: inline;
+    display: inline; /*si el elementento es en bloque o en línea*/
     font-size: 50px;
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 500; /*Grosor de la letra*/
+    text-transform: uppercase; /*letras en mayúsculas*/
 }
+/*formato del subtitulo*/
 
 .sabor { 
     color: #fff;
@@ -62,7 +64,7 @@ body {
     position: absolute;
     top: 0;
     left: 0;
-    z-index: -1; /*enviamos a la imagen al fondo*/
+    z-index: -1; /*enviamos la imagen al fondo*/
     border-radius: 15px;
 }
 .carousel .indicator .indicator-item{
